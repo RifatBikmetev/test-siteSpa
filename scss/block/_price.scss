@@ -1,0 +1,91 @@
+.price {
+	margin-top: 150px;
+}
+
+.price__title {
+	font-family: 'El Messiri', sans-serif;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+   text-align: center;
+   color: #FFFFFF;
+	margin-bottom: 100px;
+}
+
+.price__title.icon-left::before {
+	color: #018ABE;
+	vertical-align: middle;
+	padding-right: 45px;
+}
+
+.price__title.icon-right::after {
+	color: #018ABE;
+	vertical-align: middle;
+	padding-left: 45px;
+}
+
+.price__proposal {
+	display: flex;
+	justify-content: space-between;
+}
+
+.price__box {
+	display: flex;
+}
+
+.price__list {
+	list-style: none;
+	margin-right: 100px;
+}
+
+.price__list:last-child {
+	margin-right: 0;
+}
+
+.price__item {
+	font-family: 'Proxima Nova';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	color: #FFFFFF;
+	margin-bottom: 31px;
+}
+
+.icon-left::before{
+	padding-right: 20px;
+	color: #018ABE;
+}
+
+.price__item:last-child {
+	margin-bottom: 0;
+}
+
+.price__cost {
+	font-family: 'El Messiri';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 140%;
+	color: #FFFFFF;
+	margin-bottom: 31px;
+}
+
+.price__cost:last-child {
+	margin-bottom: 0;
+}
+
+// .price__sertificate {
+// }
+
+.price__sertificate-img {
+	border-radius: 10px;
+}
+
+.price__sertificate-text {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'El Messiri';
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 140%;
+	color: #fff
+}

@@ -1,0 +1,74 @@
+.about {
+	margin-top: 150px;
+}
+
+.about__title {
+	font-family: 'El Messiri', sans-serif;
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 140%;
+   text-align: center;
+   color: #FFFFFF;
+	margin-bottom: 100px;
+}
+
+.about__title.icon-left::before {
+	color: #018ABE;
+	vertical-align: middle;
+	padding-right: 45px;
+}
+
+.about__title.icon-right::after {
+	color: #018ABE;
+	vertical-align: middle;
+	padding-left: 45px;
+}
+
+// .about__box {
+// }
+
+.about__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.about__list:last-child {
+	margin-bottom: 0;
+}
+
+.about__item {
+	max-width: 466px;
+	width: 100%;
+}
+
+.about__subtitle {
+	font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 140%;
+   color: #FFFFFF;
+}
+
+.about__text {
+	font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 140%;
+   color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.about__massage {
+	margin-left: 84px;
+}
+
+.about__img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.about__hydrotherapy {
+	margin-right: 84px;
+}

@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #162831;
+	margin: 0;
+	font-family: 'El Messiri', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1326px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.article__container {
+	max-width: 1106px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}

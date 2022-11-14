@@ -1,0 +1,50 @@
+.firstscreen {
+	position: relative;
+}
+
+.firstscreen__img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.firstscreen__inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 587px;
+	width: 100%;
+}
+
+.firstscreen__text {
+	font-family: 'El Messiri', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 140%;
+   color: #FFFFFF;
+	margin-top: 136px;
+	margin-bottom: 40px;
+}
+
+.firstscreen__text.icon-left::before {
+	color: #FFFFFF;
+	padding-right: 60px;
+	vertical-align: middle;
+}
+
+.firstscreen__text.icon-right::after {
+	color: #FFFFFF;
+	padding-left: 60px;
+	vertical-align: middle;
+}
+
+.firstscreen__title {
+	font-family: 'El Messiri', sans-serif;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 140%;
+   color: #FFFFFF;
+}
